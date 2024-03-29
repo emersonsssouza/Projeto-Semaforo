@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/semaforo.png" type="image/x-icon">
+    <link rel="stylesheet" href="estilos/semafaro.css">
+    <title>Semafaro Js</title>
+</head>
+
+<body id="fundo">
+    <main>
+        <div class="container">
+            <div class="globo" id="glob01"></div>
+            <div class="globo" id="glob02"></div>
+            <div class="globo" id="glob03"></div>
+        </div>
+
+        <div class="content" id="buttons">
+            <button onclick="vermelho()" id="red" class="btn">VERMELHO</button>
+            <button onclick="amarelo()" id="yellow" class="btn">AMARELO</button>
+            <button onclick="verde()" id="green" class="btn">VERDE</button>
+            <button onclick="automatico()" id="automatic" class="btn">AUTOMATIC</button>
+            <button id="flashing" class="btn">PISCANTE</button>
+            <button onclick="desligar()" id="off" class="btn">DESLIGAR</button>
+        </div>
+    </main>
+
+    <div class="res" id="res">
+
+    </div>
+
+    <script src="javascript/semafaro.js"></script>
+</body>
+
+</html>
