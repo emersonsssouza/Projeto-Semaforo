@@ -5,8 +5,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 body {
-    background-image: linear-gradient(black, black, red, 0.1%, rgba(0, 0, 0, 0.938));
+    background-image: linear-gradient(rgba(12, 12, 216, 0.73), rgba(0, 0, 0, 0.949));
     width: 100vw;
     height: 100vh;
     overflow-x: hidden;
@@ -14,6 +15,7 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 main {
     background-color: rgba(116, 112, 112, 0.877);
     margin: auto;
